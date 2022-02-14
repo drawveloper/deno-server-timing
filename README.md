@@ -5,7 +5,7 @@ Implements `start(label: string)` and `end(label:string)` to trace timings of as
 ### Getting started
 
 ```
-import { createServerTimingMiddleware } from './server-timing.ts'
+import { createServerTimingMiddleware } from "https://deno.land/x/server_timing/mod.ts"
 
 (...)
 
