@@ -53,4 +53,4 @@ ok%
 
 In Chrome, you can access Network tab for server timing details on each request:
 
-![Chrome Server Timing Header Screenshot](/public/server-timing.png)
+![Chrome Server Timing Header Screenshot](public/server-timing.png)
