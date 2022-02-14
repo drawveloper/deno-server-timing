@@ -13,9 +13,9 @@ const { start, end, serverTimingMiddleware } = createServerTimingMiddleware()
 
 (... in middleware)
 
-start('db')
+start('fetch')
 const dataFromDB = await getData()
-end('db')
+end('fetch')
 
 start('render')
 const html = await render(dataFromDB)
@@ -53,4 +53,4 @@ ok%
 
 In Chrome, you can access Network tab for server timing details on each request:
 
-![Chrome Server Timing Header Screenshot]('/public/server-timing.png')
+![Chrome Server Timing Header Screenshot](/public/server-timing.png)
