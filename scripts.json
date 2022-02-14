@@ -1,0 +1,6 @@
+{
+    "$schema": "https://deno.land/x/denon/schema.json",
+    "scripts": {
+        "oak": "deno run --allow-net examples/oak.ts"
+    }
+}
